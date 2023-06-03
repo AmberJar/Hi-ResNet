@@ -1,0 +1,6 @@
+0	__background__
+1	road
+2	water 
+3   bare land
+4   building
+5   plants

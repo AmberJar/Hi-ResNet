@@ -1,0 +1,77 @@
+{
+    "name": "DeepLab_DUC_HDC",
+    "n_gpu": 2,
+    "use_synch_bn": false,
+
+    "arch": {
+        "type": "DeepLab_DUC_HDC",
+        "args": {
+            "backbone": "resnet50",
+            "freeze_bn": false,
+            "freeze_backbone": false
+        }
+    },
+
+    "train_loader": {
+        "type": "Huawei",
+        "args":{
+            "data_dir": "/data/fpc/data/future/adaspace",
+            "batch_size": 4,
+            "base_size": 400,
+            "crop_size": 380,
+            "augment": true,
+            "shuffle": true,
+            "scale": true,
+            "flip": true,
+            "rotate": true,
+            "blur": false,
+            "split": "train",
+            "num_workers": 1
+        }
+    },
+
+    "val_loader": {
+        "type": "Huawei",
+        "args":{
+            "data_dir": "/data/fpc/data/future/adaspace",
+            "batch_size": 2,
+            "crop_size": 480,
+            "val": true,
+            "split": "val",
+            "num_workers": 1
+        }
+    },
+
+    "optimizer": {
+        "type": "SGD",
+        "differential_lr": true,
+        "args":{
+            "lr": 0.01,
+            "weight_decay": 1e-4,
+            "momentum": 0.9
+        }
+    },
+
+    "loss": "CrossEntropyLoss2d",
+    "ignore_index": 255,
+    "lr_scheduler": {
+        "type": "Poly",
+        "args": {}
+    },
+
+    "trainer": {
+        "epochs": 200,
+        "save_dir": "saved/",
+        "save_period": 2,
+  
+        "monitor": "max Mean_IoU",
+        "early_stop": 10,
+        
+        "tensorboard": true,
+        "log_dir": "saved/runs",
+        "log_per_iter": 2,
+
+        "val": true,
+        "val_per_epochs": 5
+    }
+}

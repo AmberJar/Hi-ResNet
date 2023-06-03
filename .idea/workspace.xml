@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f24f3a80-7a46-4808-88ff-2edf076ea9b8" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/ProcessingTools/merge_mask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessingTools/sampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrnet_trainer_f.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference_playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/semantic_connectivity_loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_dataloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_dataloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_hrnet_cpam_hdloss.json" beforeDir="false" afterPath="$PROJECT_DIR$/config_hrnet_cpam_hdloss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataloaders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataloaders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataloaders/huawei.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataloaders/huawei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrnet_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/hrnet_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrnet_trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hrnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/hrnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hrnet_backbone.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/hrnet_backbone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hrnet_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/hrnet_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hrnet_spatial_ocr_block.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/hrnet_spatial_ocr_block.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/upernet.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/upernet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predicts_edge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing_potsdam.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing_potsdam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_edge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer_edge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/hddtbinaryloss.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/hddtbinaryloss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/losses.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/losses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/lr_scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/lr_scheduler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/palette.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/palette.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/sync_batchnorm/replicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sync_batchnorm/replicate.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ProcessingTools/mask2source.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/config_hrnet_plants.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProcessingTools/data_augmentation.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dataloaders/hrnet.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/hrnet_train.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/predicts_edge.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProcessingTools/split_images.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/models/hrnetV5.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/hrnet_trainer_f.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/base/base_dataset_potsdam.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/base/augmentor.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProcessingTools/calculate_mean_std.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/hrnet_trainer_s.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProcessingTools/test.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/models/hrnet_config_V5.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProcessingTools/pic_concat.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProcessingTools/split_image.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/utils/lr_scheduler.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/models/hrnet_backboneV5.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/base/base_dataset.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/utils/check_mean.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProcessingTools/isAID_augment.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/base/base_dataset_loveda.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/config_loveda.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/base/base_trainer.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dataloaders/loveda.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dataloaders/__init__.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dataloaders/huawei.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/predict.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/vits_run.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/utils/palette.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MUoX1emSOjcPXjiRFMmlsd4OyB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="credentialsType com.jetbrains.python.remote.PyCreateRemoteInterpreterDialog$PyCreateRemoteSdkForm" value="Web 部署" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\bak_projects\adaspace_aerial_image_to_2dmaps" />
+      <recent name="D:\potsdam\adaspace_aerial_image_to_2dmaps\adaspace_aerial_image_to_2dmaps\adaspace_aerial_image_to_2dmaps\dataloaders" />
+      <recent name="D:\potsdam\adaspace_aerial_image_to_2dmaps\adaspace_aerial_image_to_2dmaps\adaspace_aerial_image_to_2dmaps\base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test2">
+    <configuration name="hrnet_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="adaspace_aerial_image_to_2dmaps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hrnet_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predicts_edge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="adaspace_aerial_image_to_2dmaps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predicts_edge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="adaspace_aerial_image_to_2dmaps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProcessingTools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProcessingTools/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="adaspace_aerial_image_to_2dmaps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="adaspace_aerial_image_to_2dmaps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.predicts_edge" />
+        <item itemvalue="Python.hrnet_train" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f24f3a80-7a46-4808-88ff-2edf076ea9b8" name="变更" comment="" />
+      <created>1677831557895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677831557895</updated>
+      <workItem from="1677831560549" duration="18584000" />
+      <workItem from="1678436857295" duration="7267000" />
+      <workItem from="1678757646021" duration="34558000" />
+      <workItem from="1679370565977" duration="22161000" />
+      <workItem from="1679560972993" duration="7120000" />
+      <workItem from="1679626164557" duration="59419000" />
+      <workItem from="1679908266060" duration="334000" />
+      <workItem from="1679908662414" duration="11825000" />
+      <workItem from="1679989690664" duration="52860000" />
+      <workItem from="1680868553293" duration="67813000" />
+      <workItem from="1681717733181" duration="63006000" />
+      <workItem from="1682299671481" duration="6727000" />
+      <workItem from="1682321129197" duration="6508000" />
+      <workItem from="1682488469299" duration="1888000" />
+      <workItem from="1683347646967" duration="5049000" />
+      <workItem from="1683615747222" duration="3200000" />
+      <workItem from="1683817769744" duration="4852000" />
+      <workItem from="1684117754721" duration="54000" />
+      <workItem from="1684227112914" duration="1367000" />
+      <workItem from="1684292175300" duration="39000000" />
+      <workItem from="1685540933458" duration="1900000" />
+      <workItem from="1685713008557" duration="1658000" />
+      <workItem from="1685800932558" duration="420000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$predicts_edge.coverage" NAME="predicts_edge Coverage Results" MODIFIED="1685068179694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$test.coverage" NAME="test Coverage Results" MODIFIED="1683819523350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1684412852233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProcessingTools" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$loveda_test.coverage" NAME="loveda_test Coverage Results" MODIFIED="1682471883035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1685419221499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$vaihingen_test.coverage" NAME="vaihingen_test 覆盖结果" MODIFIED="1681888015431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$loveda_split.coverage" NAME="loveda_split 覆盖结果" MODIFIED="1682219314753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProcessingTools" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$isAID_augment.coverage" NAME="isAID_augment 覆盖结果" MODIFIED="1679902163750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProcessingTools" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$predict.coverage" NAME="predict 覆盖结果" MODIFIED="1678858846568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$potsdam_split.coverage" NAME="potsdam_split 覆盖结果" MODIFIED="1681308391904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProcessingTools" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$calculate_mean_std.coverage" NAME="calculate_mean_std 覆盖结果" MODIFIED="1681308528707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProcessingTools" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$hrnet_train.coverage" NAME="hrnet_train Coverage Results" MODIFIED="1684841988560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$vaihingen.coverage" NAME="vaihingen 覆盖结果" MODIFIED="1681306181797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProcessingTools" />
+    <SUITE FILE_PATH="coverage/adaspace_aerial_image_to_2dmaps$t.coverage" NAME="t 覆盖结果" MODIFIED="1680785635733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+  </component>
+</project>

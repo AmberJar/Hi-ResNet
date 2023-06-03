@@ -1,0 +1,78 @@
+{
+    "name": "HRNET_VAL",
+    "n_gpu": 4,
+    "use_synch_bn": false,
+    "path_best": false,
+
+    "arch": {
+        "type": "HRNet_W48_ASPOCR_V2",
+        "args": {
+            "backbone": "hrnet48",
+	    "freeze_bn": false,
+        "freeze_backbone": false
+        }
+    },
+
+    "train_loader": {
+        "type": "Thunder",
+        "args":{
+            "data_dir": "/data/fpc/data/deepGlobe/aug_deepGlobe/train_dataset",
+            "batch_size": 16,
+            "base_size": 400,
+            "crop_size": 400,
+            "augment": true,
+            "shuffle": true,
+            "scale": true,
+            "flip": true,
+            "rotate": true,
+            "blur": false,
+            "split": "train",
+            "num_workers": 8
+        }
+    },
+
+    "val_loader": {
+        "type": "Thunder",
+        "args":{
+            "data_dir": "/data/fpc/data/deepGlobe/aug_deepGlobe/train_dataset",
+            "batch_size": 16,
+            "crop_size": 400,
+            "val": true,
+            "split": "val",
+            "num_workers": 4
+        }
+    },
+
+    "optimizer": {
+        "type": "AdamW",
+        "differential_lr": true,
+        "args":{
+            "lr": 3e-4,
+            "weight_decay": 3e-5
+        }
+    },
+
+    "loss": "CE_DiceLoss",
+    "ignore_index": 255,
+    "lr_scheduler": {
+        "type": "Poly",
+        "args": {}
+    },
+
+    "trainer": {
+        "epochs": 320,
+        "save_dir": "/data/fpc/saved/",
+        "save_period": 3,
+  
+        "monitor": "max Mean_IoU",
+        "early_stop": 20,
+        
+        "tensorboard": true,
+        "log_dir": "saved/runs",
+        "log_per_iter": 3,
+
+        "val": true,
+        "val_per_epochs": 3
+    }
+}
+
